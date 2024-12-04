@@ -28,17 +28,85 @@ nav h3{
 }
 .banner{
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-   height: 100vh;
     width: 100%;
+    height: 800px;
     background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
+    margin-top: 80px;
+   
+  
     
 }
- .banner-content,.banner-description,.button{
-   text-align: center;
+.main{
+    text-align: center;
+   padding: 100px;
+}
+
   
+
+.btn-primary{
+    color: orange;
+}
+.banner-content{
+    color: #fff;
+}
+.primary{
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
   
 }
+.second{
+    display:flex;
+  margin-right: 30px;
+  margin-left: 60px;
+  margin-top: 10px;
+  justify-content: space-between;
+  padding: 0px 60px 0px 0px;
+    
+ 
+}
+.h1{
+    margin-right: 30px;
+    margin-left: 30px;  
+}
+.pic-4{
+    width: 300px;
+    height: 300px;
+}
+.destination{
+    text-align: center;
+   margin-top: 120px;
+   width: 800;
+}
+.first{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin: 10px;
+   
+}
+.two{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: 10px;
+   
+}
+.three{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin: 10px;
+}
+.image-grid{
+    margin-right: 30px;
+   
+    margin-left: 60px;
+    
+    
+}
+
+
 
 
